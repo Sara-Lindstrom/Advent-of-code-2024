@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace AdventCalender2024.Days
@@ -27,20 +28,72 @@ namespace AdventCalender2024.Days
 
                     //call part 1 or part 2
 
-                    //Part1(allNumbers);
-                    //Part2(allNumbers);
+                    //Part1(input);
+                    Part2(input);
                 }
             }
             catch (Exception ex) { }
         }
 
-        public void Part1()
+        public void Part1(string input)
         {
+            string pattern = @"\bmul\((\d{1,3}),(\d{1,3})\)";
 
+            MatchCollection matches = Regex.Matches(input, pattern);
+            int result = 0;
+
+            foreach (Match match in matches)
+            {
+                int tempNumber = 0;
+
+                // Parse the two numbers from the match groups
+                int num1 = int.Parse(match.Groups[1].Value);
+                int num2 = int.Parse(match.Groups[2].Value);
+
+                tempNumber = num1 * num2;
+                if (tempNumber > 0)
+                {
+                    result = result + tempNumber;
+                }
+
+            }
+
+            Console.WriteLine(result);
+            Console.ReadKey();
         }
-        public void Part2()
-        {
 
+        public void Part2(string input)
+        {
+            string[] segments = Regex.Split(input, @"(?=do\(\)|don't\(\))");
+            string pattern = @"\bmul\((\d{1,3}),(\d{1,3})\)";
+
+            int result = 0;
+
+            foreach (string segment in segments)
+            {
+                if (segment.StartsWith("don't()") is false)
+                {
+                    MatchCollection matches = Regex.Matches(segment, pattern);
+
+                    foreach (Match match in matches)
+                    {
+                        int tempNumber = 0;
+
+                        // Parse the two numbers from the match groups
+                        int num1 = int.Parse(match.Groups[1].Value);
+                        int num2 = int.Parse(match.Groups[2].Value);
+
+                        tempNumber = num1 * num2;
+                        if (tempNumber > 0)
+                        {
+                            result = result + tempNumber;
+                        }
+
+                    }
+                }
+            }
+            Console.WriteLine(result);
+            Console.ReadKey();
         }
     }
 }
