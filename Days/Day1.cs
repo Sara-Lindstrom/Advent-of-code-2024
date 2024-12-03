@@ -58,7 +58,7 @@ internal class Day1
 
                 // Call part1 or part2
 
-                Part1(leftColumn, rightColumn);
+                //Part1(leftColumn, rightColumn);
                 //day1.Part2(leftColumn, rightColumn);
             }
             else

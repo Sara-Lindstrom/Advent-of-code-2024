@@ -56,7 +56,7 @@ public class Day2
 
                 //call part 1 or part 2
 
-                Part1(allNumbers);
+                //Part1(allNumbers);
                 //Part2(allNumbers);
 
             }

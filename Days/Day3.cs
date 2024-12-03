@@ -29,7 +29,7 @@ namespace AdventCalender2024.Days
                     //call part 1 or part 2
 
                     //Part1(input);
-                    Part2(input);
+                    //Part2(input);
                 }
             }
             catch (Exception ex) { }
