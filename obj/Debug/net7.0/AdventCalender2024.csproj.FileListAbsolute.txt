@@ -3,7 +3,6 @@ C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\bin\Debug\net7.0\Adven
 C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\bin\Debug\net7.0\AdventCalender2024.runtimeconfig.json
 C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\bin\Debug\net7.0\AdventCalender2024.dll
 C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\bin\Debug\net7.0\AdventCalender2024.pdb
-C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\obj\Debug\net7.0\AdventCalender2024.csproj.AssemblyReference.cache
 C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\obj\Debug\net7.0\AdventCalender2024.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\obj\Debug\net7.0\AdventCalender2024.AssemblyInfoInputs.cache
 C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\obj\Debug\net7.0\AdventCalender2024.AssemblyInfo.cs
@@ -13,3 +12,4 @@ C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\obj\Debug\net7.0\refin
 C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\obj\Debug\net7.0\AdventCalender2024.pdb
 C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\obj\Debug\net7.0\AdventCalender2024.genruntimeconfig.cache
 C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\obj\Debug\net7.0\ref\AdventCalender2024.dll
+C:\Users\SaraM\Desktop\adventskalender\AdventCalender2024\obj\Debug\net7.0\AdventCalender2024.sourcelink.json

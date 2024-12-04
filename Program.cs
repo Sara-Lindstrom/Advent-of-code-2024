@@ -4,7 +4,8 @@ class Program
 {
     static async Task Main()
     {
-        var test = new Day3();
-        await test.Run();
+        string sessionToken = "";
+        var test = new Day4();
+        await test.Run(sessionToken);
     }
 }

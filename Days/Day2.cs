@@ -30,10 +30,9 @@ public class Day2
     //8 6 4 4 1: Safe by removing the third level, 4.
     //1 3 6 7 9: Safe without removing any level.
 
-    public async Task Run()
+    public async Task Run(string sessionToken)
     {
         //HttpRequestSetup
-        string sessionToken = "53616c7465645f5fc8bb81cd507326a704fc03bf2f220a371e76902074c79d7d29c4cf8b1be94115098b6a9f269f3653a8e0839733f85cc423714213f52af5a6";
         string url = $"https://adventofcode.com/2024/day/2/input";
 
         try

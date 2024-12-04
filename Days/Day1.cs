@@ -20,10 +20,9 @@ internal class Day1
     //find reoccuring numbers in list
     //multiply with original number (3,4,2,1,3,3)(4,3,5,3,9,3) 3 found 3 times (3*3=9) aso. and (9+4+0+0+9+9 = 31)
 
-    public async Task Run()
+    public async Task Run(string sessionToken)
     {
         //HttpRequestSetup
-        string sessionToken = "53616c7465645f5fc8bb81cd507326a704fc03bf2f220a371e76902074c79d7d29c4cf8b1be94115098b6a9f269f3653a8e0839733f85cc423714213f52af5a6"; 
         string url = $"https://adventofcode.com/2024/day/1/input";
 
         try
@@ -59,7 +58,7 @@ internal class Day1
                 // Call part1 or part2
 
                 //Part1(leftColumn, rightColumn);
-                //day1.Part2(leftColumn, rightColumn);
+                //Part2(leftColumn, rightColumn);
             }
             else
             {
