@@ -23,7 +23,7 @@ internal class Day1
     public async Task Run()
     {
         //HttpRequestSetup
-        string sessionToken = "53616c7465645f5fc8bb81cd507326a704fc03bf2f220a371e76902074c79d7d29c4cf8b1be94115098b6a9f269f3653a8e0839733f85cc423714213f52af5a6"; 
+        string sessionToken = ""; 
         string url = $"https://adventofcode.com/2024/day/1/input";
 
         try
